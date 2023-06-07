@@ -12,7 +12,9 @@ export const environment = {
   response_mode: 'form_post',
   code_challenge_method: 'S256',
   code_challenge: '9ctvXeu0w7D6EYOYZVvYj2DyCHuP42OfaZR_JOtCcL8',
-  code_verifier: 'MtNHVBCZFwFVz2wAaq0sqNuNGN0VVMNFUDpRPfPJ9c5'
+  code_verifier: 'MtNHVBCZFwFVz2wAaq0sqNuNGN0VVMNFUDpRPfPJ9c5',
+  token_url: "http://localhost:9000/oauth2/token",
+  grant_type: 'authorization_code'
 };
 
 /*
